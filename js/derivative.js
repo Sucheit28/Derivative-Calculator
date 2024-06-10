@@ -4,6 +4,7 @@ function randomInput() {
       "x * sin(x ^ 2)",
       "x ^ 4 * sin(x)",
       "e ^ sin(x)",
+      "arctan(x)",
     ];
     var randomExpression = Math.floor(Math.random() * randomValue.length);
     document.getElementById("expression").value = randomValue[randomExpression];
